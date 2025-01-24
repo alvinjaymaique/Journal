@@ -1,9 +1,10 @@
 import './App.css'
 import {Router, Routes, Route, BrowserRouter} from 'react-router-dom'
 // import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './components/Home'
-import About from './components/About'
+import Home from './pages/Home'
+import About from './pages/About'
 import AppLayout from './components/AppLayout'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
 
